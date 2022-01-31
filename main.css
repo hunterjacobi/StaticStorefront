@@ -1,0 +1,198 @@
+/* Common Elements */
+body {
+  background-color: #adb7bd;
+  padding: 0;
+  margin: 0;
+}
+
+.contentWrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 3em;
+}
+
+div.clear {
+  clear: both;
+  font-size: 1%;
+}
+/* Header 
+
+
+*/
+header {
+  padding: 2.5em 0 0.5em;
+  margin: 0 0 2em;
+}
+
+header h1 {
+  color: papayawhip;
+  font-size: 7.5em;
+  letter-spacing: -0.025em;
+  text-align: center;
+  text-shadow: 1px 2px 0 #68645f;
+  margin: 0;
+}
+
+header h2 {
+  color: rgb(233, 211, 175);
+  font-weight: 400;
+  font-size: 3.8em;
+  margin: -0.4em 0 0 0;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+/* Nav
+
+
+
+*/
+nav {
+  color: #000;
+  font-size: 1.7em;
+  letter-spacing: 0.08em;
+  padding: 1em 1em 0.5em;
+  margin: 1em 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+nav li a,
+nav li a:visited {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+  color: powderblue;
+  background-color: rgb(141, 90, 90);
+}
+
+nav img {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+nav#utilityMenu {
+  float: right;
+  margin: -1.5em 0 0 0;
+  padding: 0.35em;
+  background-color: rgba(58, 82, 80, 0.8);
+  height: 1.3em;
+  vertical-align: middle;
+}
+
+/* Main
+
+
+*/
+
+#main .panel {
+  float: left;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 0.5em 2em 0.5em;
+  padding: 1em;
+  background-color: #fff;
+  border: rgb(0, 0, 0) solid 2px;
+}
+
+#main h1 {
+  text-align: center;
+  font-size: 28pt;
+  font-family: "Times New Roman", Times, serif;
+  color: papayawhip;
+}
+
+.panel img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel h2 {
+  text-align: center;
+}
+
+.panel button {
+  position: absolute;
+  left: 40%;
+}
+.panel p {
+  margin: 0em 2em 0.5em;
+  padding: -0.5em 0.5em 0.5em 0.5em;
+  text-align: center;
+}
+/* Newsletter 
+
+
+*/
+#newsletter {
+  float: left;
+  position: relative;
+  margin: 0 0.5em 2em 0.5em;
+  padding: 1em;
+  background-color: rgba(58, 82, 80, 0.8);
+  border: rgb(0, 0, 0) solid 2px;
+  color: papayawhip;
+  text-align: center;
+}
+/* footer 
+
+
+*/
+footer {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  padding: 1.5em 2em;
+  text-align: center;
+}
+
+footer ul#menuFooter {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
+
+footer ul li::before {
+  content: "| ";
+  padding-right: 0.7em;
+}
+
+#roadmap::before {
+  content: none;
+}
+
+footer a,
+footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
