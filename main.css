@@ -15,6 +15,25 @@ div.clear {
   clear: both;
   font-size: 1%;
 }
+
+/* landing video
+
+*/
+.video {
+  width: 100vw;
+  overflow: hidden;
+  display: block;
+  height: 60vh;
+  margin: 0;
+  padding: 2em 0;
+  background-color: black;
+}
+
+#headerVideo {
+  width: 100vw;
+  /* border: black solid 2px; */
+}
+
 /* Header 
 
 
@@ -28,9 +47,9 @@ header h1 {
   color: papayawhip;
   font-size: 7.5em;
   letter-spacing: -0.025em;
-  text-align: center;
   text-shadow: 1px 2px 0 #68645f;
   margin: 0;
+  margin-left: 43%;
 }
 
 header h2 {
