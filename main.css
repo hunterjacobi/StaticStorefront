@@ -92,9 +92,31 @@ nav#utilityMenu {
   vertical-align: middle;
 }
 
+nav#websiteMenu {
+  vertical-align: middle;
+  text-align: center;
+}
 /* Main
 
 
+*/
+/* #main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#topRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#bottomRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 */
 
 #main .panel {
@@ -141,14 +163,19 @@ nav#utilityMenu {
 
 */
 #newsletter {
-  float: left;
-  position: relative;
   margin: 0 0.5em 2em 0.5em;
   padding: 1em;
   background-color: rgba(58, 82, 80, 0.8);
   border: rgb(0, 0, 0) solid 2px;
   color: papayawhip;
   text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.outside {
+  display: flex;
+  justify-content: center;
 }
 /* footer 
 
