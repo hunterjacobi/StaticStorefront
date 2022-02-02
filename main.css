@@ -147,6 +147,11 @@ nav#websiteMenu {
   padding: 1em;
   background-color: #fff;
   border: rgb(0, 0, 0) solid 2px;
+  transition: border-radius 3s;
+}
+
+#main .panel:hover {
+  border-radius: 15%;
 }
 
 #main h1 {
@@ -183,7 +188,7 @@ nav#websiteMenu {
 */
 #newsletter {
   margin: 0 0.5em 2em 0.5em;
-  padding: 1em;
+  padding: 1em 4.5em;
   background-color: rgba(58, 82, 80, 0.8);
   border: rgb(0, 0, 0) solid 2px;
   color: papayawhip;
